@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Button?>
+
+<VBox styleClass="menuScene"
+      alignment="CENTER"
+      spacing="20"
+      xmlns="http://javafx.com/javafx/23.0.1"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.view.DbSaveSelectionController">
+
+    <!-- Nagłówek -->
+    <Text fx:id="selectSave" styleClass="title" />
+
+    <!-- Przyciski wczytania -->
+    <VBox fx:id="placeForButtons" spacing="15" alignment="CENTER">
+        <!-- Przyciski ze wczytanymi zapisami przechowywanymi w bazie danych -->
+    </VBox>
+
+    <!-- Przycisk powrotu -->
+    <VBox spacing="15" alignment="CENTER">
+        <Button fx:id="goBackButton" onAction="#cancel" styleClass="menu-button" />
+    </VBox>
+
+</VBox>

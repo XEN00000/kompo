@@ -1,0 +1,52 @@
+.menuScene {
+    -fx-background-color: #4a5ee0;
+    -fx-padding: 40px;
+}
+
+.title {
+    -fx-border-color: "black";
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+    -fx-fill: #343a40;
+}
+
+.authors {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+    -fx-fill: #343a40;
+}
+
+.menu-button {
+    -fx-background-color: #007bff; /* Niebieski kolor */
+    -fx-text-fill: white; /* Biały tekst */
+    -fx-font-size: 18px; /* Rozmiar czcionki */
+    -fx-padding: 10px 20px; /* Wewnętrzne odstępy */
+    -fx-border-radius: 10px; /* Zaokrąglenia */
+    -fx-background-radius: 10px;
+    -fx-cursor: hand; /* Wskaźnik kursora */
+}
+
+.menu-button:hover {
+    -fx-background-color: #0056b3; /* Ciemniejszy niebieski po najechaniu */
+}
+
+.menu-button:pressed {
+    -fx-background-color: #003d80; /* Jeszcze ciemniejszy po kliknięciu */
+}
+
+.sudoku-grid .thick-border-column {
+    -fx-border-color: black;
+    -fx-border-width: 0 0 0 2; /* Grube linie w odpowiednich miejscach */
+}
+
+.sudoku-grid .thick-border-row {
+    -fx-border-color: black;
+    -fx-border-width: 2 0 0 0; /* Grube linie w odpowiednich miejscach */
+}
+
+.sudoku-grid .thick-border-both {
+    -fx-border-color: black;
+    -fx-border-width: 2 0 0 2; /* Grube linie w odpowiednich miejscach */
+}
